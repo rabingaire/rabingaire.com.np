@@ -1,0 +1,78 @@
+body {
+	color:#FFFFFF;
+	font-size:16px;
+}
+.is-connect {
+	height: 30px;
+	background-image:linear-gradient(120deg,#111111,#686868);
+	background-image:-webkit-linear-gradient(120deg,#111111,#686868);
+	background-image:-moz-linear-gradient(120deg,#111111,#686868);
+	background-image:-o-linear-gradient(120deg,#111111,#686868);
+	background-color: #262626;
+	opacity:0.9;
+	width: 100%;
+}
+.is-wrapper {
+	width:100%;
+	background-image:linear-gradient(120deg,#156AAF,#30AF8D);
+	background-image:-webkit-linear-gradient(120deg,#156AAF,#30AF8D);
+	background-image:-moz-linear-gradient(120deg,#156AAF,#30AF8D);
+	background-image:-o-linear-gradient(120deg,#156AAF,#30AF8D);
+	background-color: #156AAF;
+}
+.my-info {
+	padding:13% 0 10% 0;	
+}
+.my-photo {
+	border:#FFFFFF 1px solid;
+	height:200px;
+	width:200px;
+	margin:0 auto;
+	background-image:url(../image/my-pic.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	border-radius:5px;
+}
+
+.my-content {
+	padding:8% 0 6% 0;
+}
+.my-effect {
+	margin:0 auto;
+	
+	padding:15% 0 10% 0;
+}
+@media screen and (min-width: 64em){ 
+	span {
+    	font-size: 5rem;
+	}
+}
+@media screen and (max-width: 64em) and (min-width: 42em) {
+	.my-content {
+		padding:0 0 5% 0;
+	}
+	.my-effect {
+		padding:3% 0 3% 0;		
+	}
+	span {
+    	font-size: 3rem;
+	}
+}
+@media screen and (max-width: 42em) {
+	.my-content {
+		padding:10% 0 8% 0;
+	}
+	.my-effect {
+		padding:15% 0 20% 0;
+	}
+	span {
+    	font-size: 2rem;
+	}
+	.is-connect {
+	height:50px;
+	}
+	.my-info {
+	padding:23% 0 10% 0;
+	}
+}
